@@ -5,13 +5,14 @@ GO
 
 
 
+
 CREATE view [dbo].[ColumnsView] as
 select 
 'change3' test,
-'change4' test4,
 'change_by_admin' change_by_admin,
 'change_by_admin2' change_by_admin2,
 'change_by_admin3' change_by_admin3,
+'change_by_ggo1' change_by_ggo1,
 	T3.ID as ID,
 	T0.Name as MachineName,
 	T1.Name as NameSpace, 
@@ -32,6 +33,7 @@ inner join Entities T2
 on T1.ID = T2.NameSpace_ID
 inner join Columns T3
 on T2.ID = T3.Entity_ID
+
 
 
 GO
