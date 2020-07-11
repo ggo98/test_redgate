@@ -9,6 +9,7 @@ GO
 
 CREATE view [dbo].[ColumnsView] as
 select 
+'V2' v2,
 'change3' test,
 'change_by_admin' change_by_admin,
 'change_by_admin2' change_by_admin2,
