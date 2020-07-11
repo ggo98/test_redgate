@@ -6,6 +6,7 @@ GO
 CREATE view [dbo].[ColumnsView] as
 select 
 'change3' test,
+'change4' test4,
 	T3.ID as ID,
 	T0.Name as MachineName,
 	T1.Name as NameSpace, 
