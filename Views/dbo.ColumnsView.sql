@@ -13,7 +13,7 @@ select
 'change_by_admin' change_by_admin,
 'change_by_admin2' change_by_admin2,
 'change_by_admin3' change_by_admin3,
-'change_by_admin4' change_by_admin4,
+'change_by_ggo1' change_by_ggo1,
 	T3.ID as ID,
 	T0.Name as MachineName,
 	T1.Name as NameSpace, 
