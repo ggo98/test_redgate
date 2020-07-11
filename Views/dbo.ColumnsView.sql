@@ -2,8 +2,10 @@ SET QUOTED_IDENTIFIER OFF
 GO
 SET ANSI_NULLS ON
 GO
-create view [dbo].[ColumnsView] as
+
+CREATE view [dbo].[ColumnsView] as
 select 
+'change3' test,
 	T3.ID as ID,
 	T0.Name as MachineName,
 	T1.Name as NameSpace, 
